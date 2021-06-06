@@ -1,0 +1,43 @@
+.contact-banner {
+    position: relative;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+    margin: 50px auto;
+    @media (max-width: 530px) {
+        width: 65%;
+    }
+    & h2 {
+        font-size: 3rem;
+        color: #242424;
+        font-weight: 500;
+        margin-bottom: 25px;
+        text-align: center;
+        @media (max-width: 768px) {
+            font-size: 2.5rem;
+        }
+        @media (max-width: 632px) {
+            font-size: 2rem;
+        }
+        @media (max-width: 530px) {
+            font-size: 1.5rem;
+        }
+    }
+}
+.btn-contact {
+    display: inline-block;
+    border: 2px solid #242424;
+    transition: .3s;
+    font-weight: bold;
+    &:hover {
+        background-color: #242424;
+        color: #fff;
+    }
+}
+
+
