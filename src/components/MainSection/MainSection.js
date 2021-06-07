@@ -7,8 +7,8 @@ const MainSection = () => {
         <section className="main-section">
             <video src="./videos/video-2.mp4" autoPlay loop muted></video>
             <div className="main-section__info">
-                <h1>Adventure awaits</h1>
-                <p>Common there!</p>
+                <h1>The Universe is Incredible!</h1>
+                <p>let's see what's inside</p>
                 <div className="btns">
                     <Button btnStyle="btn-outlined" sizeBtn="btn-large">GET STARTED</Button>
                     <Button sizeBtn="btn-large">WATCH TRAILER</Button>

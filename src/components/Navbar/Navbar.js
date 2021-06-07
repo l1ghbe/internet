@@ -39,7 +39,10 @@ const Navbar = () => {
         <>
             <nav className={activeHeader ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
-                    <Link className="navbar-logo" to="/">Here u go</Link>
+                    <Link className="navbar-logo" to="/">
+                        WEB
+                        <i class="fas fa-globe-americas"></i>
+                    </Link>
                     <ul className={toggle ? 'navbar-menu' : 'navbar-menu active'}>
                         <li className="navbar-menu__item">
                             <Link to="/">Home</Link>

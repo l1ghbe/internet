@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="footer">
             <section className="footer-description">
                 <p className="footer-sub-head">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio!
+                    If you liked what you saw on our site, you can subscribe to our newsletter.
                 </p>
                 <p className="footer-sub-text">
-                    Lorem ipsum dolor sit amet consectetur.
+                    Emails come every week on the day you choose.
                 </p>
                 <div className="inputs">
                     <form>
@@ -62,10 +62,10 @@ const Footer = () => {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            YES
+                            WEB <i class="fas fa-globe-americas"></i>
                         </Link>
                     </div>
-                    <small className='website-rights'>TRVL © 2020</small>
+                    <small className='website-rights'>WEB © 2020</small>
                     <div className='social-icons'>
                         <Link
                             className='social-icon-link facebook'

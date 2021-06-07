@@ -22,11 +22,13 @@
     &__item {
         transition: .3s;
         margin-right: 17px;
-        padding: 15px 22px;
         cursor: pointer;
         border-bottom: 4px solid transparent;
         & a {
+            display: inline-block;
             color: #fff;
+            padding: 15px 22px;
+
 
         }
         &:last-child {
@@ -156,6 +158,10 @@
             }
         }
     }
+}
+
+.fa-globe-americas {
+    margin-left: 15px;
 }
 
 

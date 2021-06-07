@@ -166,6 +166,14 @@
   }
 }
 
+.footer-link-items h2::selection, 
+.footer-sub-head::selection, 
+.footer-sub-text::selection, 
+.footer-link-items a::selection, {
+  color: #111;
+  background: #fff;
+}
+
 @media screen and (max-width: 768px) {
 }
 
